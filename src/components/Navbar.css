@@ -1,0 +1,93 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1a1a1d;
+    padding: 1.2rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    margin-bottom: 2rem;
+    border-radius: 0 0 16px 16px;
+  }
+  
+  .navbar-logo {
+    font-family: "Poppins", "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
+  .logo-sai {
+    color: #1769aa;
+  }
+  
+  .logo-ram {
+    color: #64ffda;
+  }
+  
+  .logo-k {
+    color: #64ffda;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 2.4rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links li button {
+    font-family: "Montserrat", "Poppins", Arial, Helvetica, sans-serif;
+    background: none;
+    border: none;
+    color: #f4f4f5;
+    font-weight: 600;
+    font-size: 1.08rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding: 0.3em 0;
+    margin: 0;
+    transition: color 0.2s, border-bottom 0.2s, font-weight 0.2s;
+    border-bottom: 2.5px solid transparent;
+    outline: none;
+  }
+  
+  .navbar-links li button.active {
+    color: #64ffda;
+    border-bottom: 2.5px solid #64ffda;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+  }
+  
+  .navbar-links li button:hover {
+    color: #64ffda;
+    text-decoration: none;
+    border-bottom: 2.5px solid #64ffda;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+  }
+  
+  @media (max-width: 700px) {
+    .navbar {
+      flex-direction: column;
+      padding: 1rem;
+      align-items: flex-start;
+    }
+    .navbar-logo {
+      font-size: 1.4rem;
+      margin-bottom: 0.5rem;
+    }
+    .navbar-links {
+      flex-direction: column;
+      gap: 0.7rem;
+      margin-top: 0.5rem;
+    }
+    .navbar-links li button {
+      font-size: 1rem;
+      padding: 0.25em 0;
+    }
+  }

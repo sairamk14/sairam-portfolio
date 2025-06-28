@@ -1,0 +1,73 @@
+.education-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Center the B.Tech item and make it prominent */
+  .education-btech.center-item {
+    background: #24242b;
+    color: #fff;
+    padding: 0.7em 1.2em;
+    border-radius: 8px;
+    margin: 0 auto 1em auto;
+    font-size: 1.12rem;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,0.13);
+    transition: background 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    line-height: 1.6;
+    max-width: 540px;
+    text-align: center;
+    display: block;
+  }
+  
+  .education-list li strong {
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 0.35em;
+  }
+  
+  .education-btech:hover {
+    background: #31313b;
+    box-shadow: 0 4px 16px 0 rgba(100,255,218,0.10);
+  }
+  
+  /* Row for the lower two items */
+  .education-row {
+    display: flex;
+    gap: 1em;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .education-half {
+    background: #24242b;
+    color: #fff;
+    padding: 0.7em 1em;
+    border-radius: 6px;
+    font-size: 1.05rem;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.08);
+    transition: background 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    line-height: 1.5;
+    flex: 1 1 0;
+    margin-bottom: 0.25em;
+    max-width: 320px;
+  }
+  
+  .education-half:hover {
+    background: #31313b;
+    box-shadow: 0 4px 16px 0 rgba(100,255,218,0.10);
+  }
+  
+  /* Responsive: stack side by side cards on mobile */
+  @media (max-width: 700px) {
+    .education-row {
+      flex-direction: column;
+      gap: 0.5em;
+      align-items: stretch;
+    }
+    .education-half {
+      max-width: 100%;
+    }
+  }

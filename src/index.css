@@ -1,0 +1,37 @@
+body {
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+  background: #18181b;
+  color: #f4f4f5;
+  margin: 0;
+  padding: 0;
+}
+.app-root {
+  min-height: 100vh;
+  background: #18181b;
+}
+section {
+  margin: 0 auto 4rem auto;
+  max-width: 900px;
+  padding: 2rem 1rem;
+  background: #23232a;
+  border-radius: 16px;
+  box-shadow: 0 2px 24px 0 rgba(0,0,0,0.12);
+}
+h1, h2, h3 {
+  color: #64ffda;
+  margin-bottom: 0.6em;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+a {
+  color: #64ffda;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 600px) {
+  section {
+    padding: 1rem 0.5rem;
+  }
+}

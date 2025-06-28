@@ -1,0 +1,26 @@
+.projects-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .projects-list li {
+    background: #24242b;
+    color: #fff;
+    padding: 0.7em 1em;
+    border-radius: 6px;
+    margin-bottom: 0.6em;
+    font-size: 1.05rem;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.08);
+    transition: background 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    line-height: 1.5;
+  }
+  .projects-list li strong {
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 0.35em; /* Adds space between project name and content */
+  }
+  .projects-list li:hover {
+    background: #31313b;
+    box-shadow: 0 4px 16px 0 rgba(100,255,218,0.10);
+  }
