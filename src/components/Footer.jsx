@@ -5,7 +5,7 @@ function Footer() {
     <footer style={{
       textAlign: "center",
       padding: "2rem 0 1rem 0",
-      color: "#aaa",
+      color: "black",
       background: "none",
       fontSize: "1rem"
     }}>

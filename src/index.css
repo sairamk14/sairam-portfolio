@@ -7,7 +7,7 @@ body {
 }
 .app-root {
   min-height: 100vh;
-  background: #18181b;
+  background: whitesmoke;
 }
 section {
   margin: 0 auto 4rem auto;

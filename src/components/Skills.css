@@ -40,6 +40,7 @@
   @media (max-width: 900px) {
     .skills-list {
       flex-direction: column;
+      flex-wrap: nowrap; /* Ensure items don't wrap in columns */
       gap: 0.7em;
       align-items: stretch;
     }
@@ -47,5 +48,6 @@
       min-width: 0;
       width: 100%;
       max-width: 100%;
+      flex: none; /* Prevent flexbox from sizing items horizontally */
     }
   }

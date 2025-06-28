@@ -10,7 +10,7 @@
 }
 
 .home h1 {
-  color:  #1769aa;
+  color: #64ffda;
   font-size: 2.5rem;
   margin-bottom: 0.4em;
 }
@@ -23,7 +23,7 @@
 
 .home-h2:hover {
   background: #353a4a;
-  color:  #1769aa;
+  color: #64ffda;
   box-shadow: 0 2px 16px rgba(100, 255, 218, 0.1);
 }
 
@@ -43,7 +43,7 @@
 
 .home-desc:hover {
   background: #353a4a;
-  color: #64ffda;
+  color: #1769aa;
   box-shadow: 0 2px 16px rgba(100, 255, 218, 0.1);
 }
 
@@ -66,7 +66,7 @@
   text-decoration: none;
 }
 .home-btn:hover {
-  background: #64ffda;
+  background: #1769aa;
   color: #18181b;
 }
 .resume-btn {
@@ -74,7 +74,7 @@
   color: whitesmoke;
 }
 .resume-btn:hover {
-  background: #64ffda;
+  background: #1769aa;
   color: #18181b;
 }
 @media (max-width: 600px) {
