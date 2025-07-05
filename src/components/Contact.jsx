@@ -28,45 +28,51 @@ function Contact() {
     <section id="contact" className="contact-section">
       <h2>Contact</h2>
       <div className="contact-list">
-        <div className="contact-item">
-          <PhoneIcon />
-          <a href="tel:+919014787757" className="contact-link" aria-label="Call Phone">
-            +91 9014787757
-          </a>
+        {/* Row 1: Phone and Email */}
+        <div className="contact-row">
+          <div className="contact-item">
+            <PhoneIcon />
+            <a href="tel:+919014787757" className="contact-link" aria-label="Call Phone">
+              +91 9014787757
+            </a>
+          </div>
+          <div className="contact-item">
+            <GmailIcon />
+            <a
+              href="mailto:sairamk7757@gmail.com"
+              className="contact-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Send Email"
+            >
+              sairamk7757@gmail.com
+            </a>
+          </div>
         </div>
-        <div className="contact-item">
-          <GmailIcon />
-          <a
-            href="mailto:sairamk7757@gmail.com"
-            className="contact-link"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Send Email"
-          >
-            sairamk7757@gmail.com
-          </a>
-        </div>
-        <div className="contact-item">
-          <LinkedInIcon />
-          <a
-            href="https://linkedin.com/in/sairamk14"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="contact-link"
-          >
-            linkedin.com/in/sairamk14
-          </a>
-        </div>
-        <div className="contact-item">
-          <GitHubIcon />
-          <a
-            href="https://github.com/sairamk14"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="contact-link"
-          >
-            github.com/sairamk14
-          </a>
+        {/* Row 2: LinkedIn and GitHub */}
+        <div className="contact-row">
+          <div className="contact-item">
+            <LinkedInIcon />
+            <a
+              href="https://linkedin.com/in/sairamk14"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contact-link"
+            >
+              linkedin.com/in/sairamk14
+            </a>
+          </div>
+          <div className="contact-item">
+            <GitHubIcon />
+            <a
+              href="https://github.com/sairamk14"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contact-link"
+            >
+              github.com/sairamk14
+            </a>
+          </div>
         </div>
       </div>
     </section>

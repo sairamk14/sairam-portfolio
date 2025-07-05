@@ -80,13 +80,16 @@ function App() {
   return (
     <div className="app-root">
       <Navbar onNavClick={handleNavClick} activeSection={activeSection} />
-      <div ref={homeRef}><Home /></div>
-      {/* About section is defined in refs and useEffect but not rendered, add if needed: <div ref={aboutRef}><About /></div> */}
-      <div ref={experienceRef}><Experience /></div>
-      <div ref={skillsRef}><Skills /></div>
-      <div ref={projectsRef}><Projects /></div>
-      <div ref={educationRef}><Education /></div>
-      <div ref={contactRef}><Contact /></div>
+      <div className="responsive-content">
+        <div ref={homeRef}><Home /></div>
+        {/* Uncomment the below if you want to render About section */}
+        {/* <div ref={aboutRef}><About /></div> */}
+        <div ref={experienceRef}><Experience /></div>
+        <div ref={skillsRef}><Skills /></div>
+        <div ref={projectsRef}><Projects /></div>
+        <div ref={educationRef}><Education /></div>
+        <div ref={contactRef}><Contact /></div>
+      </div>
       <Footer />
     </div>
   );

@@ -28,7 +28,7 @@ main section {
   background: #fff;
   border-radius: 8px;
   padding: 1.5rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  box-shadow: 0 2px 8px rgba(99, 96, 96, 0.04);
 }
 h2 {
   color: #64ffda;
@@ -43,4 +43,54 @@ footer {
   padding: 1rem 0;
   color: #888;
   font-size: 0.9rem;
+}
+
+/* Responsive styles for mobile and tablets */
+.app-root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.responsive-content {
+  max-width: 850px;
+  margin: auto;
+  padding: 2rem;
+  flex: 1 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 900px) {
+  .responsive-content {
+    max-width: 100%;
+    padding: 1rem;
+  }
+  .App {
+    max-width: 100%;
+    padding: 1rem;
+  }
+  main section {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .responsive-content {
+    padding: 0.5rem;
+  }
+  .App {
+    padding: 0.5rem;
+  }
+  header nav a {
+    margin: 0 0.5rem;
+    font-size: 0.95rem;
+  }
+  main section {
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
 }

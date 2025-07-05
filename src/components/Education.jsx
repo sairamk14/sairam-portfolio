@@ -15,14 +15,18 @@ function Education() {
         {/* Intermediate and Secondary side by side below */}
         <div className="education-row">
           <li className="education-half">
-            <strong>Intermediate - MPC</strong><br />
-            Tirumala Junior College, 2017 - 2019<br />
-            CGPA: 9.94/10
+            <div style={{ width: "100%", textAlign: "center" }}>
+              <strong>Intermediate - MPC</strong><br />
+              Tirumala Junior College, 2017 - 2019<br />
+              CGPA: 9.94/10
+            </div>
           </li>
           <li className="education-half">
-            <strong>Secondary School Certificate</strong><br />
-            Bhashyam High School, 2016 - 2017<br />
-            CGPA: 9.8/10
+            <div style={{ width: "100%", textAlign: "center" }}>
+              <strong>Secondary School Certificate</strong><br />
+              Bhashyam High School, 2016 - 2017<br />
+              CGPA: 9.8/10
+            </div>
           </li>
         </div>
       </ul>

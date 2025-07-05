@@ -27,16 +27,21 @@
   box-shadow: 0 2px 16px rgba(100, 255, 218, 0.1);
 }
 
+.home-desc-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .home-desc {
   color: #d1d5db;
   font-size: 1.08rem;
   max-width: 520px;
-  margin: 0 auto 1.6em auto;
+  margin: 0 auto 1.1em auto;
   line-height: 1.6;
   font-weight: 400;
   transition: background 0.3s, color 0.3s, box-shadow 0.3s;
-  /* Add smooth transition */
-  border-radius: 8px; /* For a soft highlight */
+  border-radius: 8px;
   padding: 0.2em 0.4em;
   display: inline-block;
 }
@@ -53,6 +58,7 @@
   justify-content: center;
   margin-top: 1.5rem;
 }
+
 .home-btn {
   background: none;
   border: 2px solid whitesmoke;
@@ -64,26 +70,96 @@
   transition: background 0.2s, color 0.2s;
   cursor: pointer;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
-.home-btn:hover {
+.home-btn:focus {
+  outline: none;
+}
+
+.home-btn:hover,
+.home-btn:focus {
   background: #1769aa;
   color: #18181b;
 }
+
+.home-btn .btn-text {
+  cursor: pointer;
+  color: inherit;
+  background: none;
+  border: none;
+  font-size: inherit;
+  font-weight: inherit;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  transition: color 0.2s, background 0.2s;
+  border-radius: 4px;
+}
+
+.home-btn .btn-text:hover,
+.home-btn .btn-text:focus {
+  background: #1769aa;
+  color: #18181b;
+  outline: none;
+}
+
 .resume-btn {
   border: 2px solid whitesmoke;
   color: whitesmoke;
 }
-.resume-btn:hover {
+.resume-btn .btn-text {
+  color: whitesmoke;
+}
+.resume-btn .btn-text:hover,
+.resume-btn .btn-text:focus {
   background: #1769aa;
   color: #18181b;
 }
+
 @media (max-width: 600px) {
+  .home {
+    min-height: 80vh;
+    padding: 0 0.5rem;
+    position: relative;
+  }
+  .home h1 {
+    font-size: 2rem;
+  }
+  .home h2 {
+    font-size: 1.2rem;
+  }
+  .home-desc-row {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+  }
+  .home-desc {
+    font-size: 1rem;
+    max-width: 100vw;
+    word-break: break-word;
+    padding: 0.25em 0.3em;
+    margin: 0 auto 0.5em auto;
+    display: block;
+  }
   .home-btn-group {
     flex-direction: column;
     gap: 0.7rem;
     width: 100%;
+    align-items: center;
+    margin-top: 0;
   }
   .home-btn {
     width: 100%;
+    font-size: 1rem;
+    padding: 0.7em 0;
+    text-align: center;
+  }
+  .lets-connect-mobile {
+    margin-top: 0.6em;
+    width: 100%;
+    display: block;
   }
 }
