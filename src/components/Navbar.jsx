@@ -7,7 +7,6 @@ function Navbar({ onNavClick, activeSection }) {
     { label: "Experience", section: "experience" },
     { label: "Skills", section: "skills" },
     { label: "Projects", section: "projects" },
-   
     { label: "Education", section: "education" },
   ];
 
@@ -16,7 +15,6 @@ function Navbar({ onNavClick, activeSection }) {
       <div className="navbar-logo">
         <span className="logo-sai">Sai</span>
         <span className="logo-ram"> Ram</span>
-       
       </div>
       <ul className="navbar-links">
         {links.map((link) => (
