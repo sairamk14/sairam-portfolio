@@ -25,7 +25,7 @@ function Home() {
       <h2 className="home-h2">Full Stack Developer</h2>
       <div className="home-desc-row">
         <p className="home-desc">
-          Aspiring Full Stack Developer with hands-on experience in Java, MySQL, Spring Boot, and Angular. Eager to build
+          Aspiring Full Stack Developer with hands-on experience in Java, MySQL, Spring Boot, and React JS. Eager to build
           scalable web applications in a collaborative team environment while continuously enhancing technical expertise
           and growing as a developer.
         </p>
@@ -59,7 +59,7 @@ function Home() {
           tabIndex={0}
         >
           <a
-            href="/SaiRamK_Resume.pdf"
+            href="/SaiRam_Resume.pdf"
             className="btn-text"
             download
             target="_blank"

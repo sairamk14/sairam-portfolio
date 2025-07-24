@@ -11,11 +11,13 @@ function Experience() {
             <strong>Quality Assurance Analyst</strong><br />
             Wipro Limited, Feb 2024 - Mar 2025
           </span>
-          - Analyzed requirements and created test cases accordingly<br />
-          - Executed manual tests to identify bugs and ensure functionality<br />
-          - Reported defects using tools like JIRA and collaborated with developers for resolution<br/>
-          - Performed smoke, regression, and sanity testing<br/>
-          - Documented test results and supported QA process improvements
+          - Created and executed test cases based on functional requirements for smoke, functional, and regression testing<br />
+          - Reported and tracked bugs using JIRA, working closely with developers for quick resolution.<br />
+          - Validated UI elements, form validations, and ensured cross-browser compatibility<br/>
+          - Participated in Agile ceremonies and provided daily test status updates.<br/>
+          - Validated end-user banking workflows by testing major features such as authentication, money transfers,
+             account statements, and personal detail updates (KYC).<br/>
+          - Tools : JIRA, Excel, Cucumber
         </li>
       </ul>
     </section>
